@@ -1,0 +1,23 @@
+.mainp3 
+{
+    width: 100%;
+    background-color: #f8fafe;
+  
+    padding-bottom: 70px;
+}
+
+.mainp3 .topp
+{
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.mainp3 .topp h2 
+{
+    color: #525252;
+    font-size: 22px;
+    font-weight: 500;
+}

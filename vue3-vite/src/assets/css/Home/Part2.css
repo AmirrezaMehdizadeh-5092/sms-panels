@@ -1,0 +1,72 @@
+.mainp2 {
+    width: 100%;
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+.mainp2 h2 {
+    line-height: 35px;
+    font-size: 22px;
+    color: #525252;
+    font-weight: 500;
+}
+
+.mainp2 .panels {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.mainp2 .panels .panle {
+    width: 32%;
+    background-color: #c4e2f985;
+    margin-top: 25px;
+    padding-bottom: 25px;
+}
+
+.mainp2 .panels .panle h3 {
+    color: #03a9f4;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.mainp2 .panels .panle h4 {
+    font-size: 20px;
+    color: #03a9f4;
+}
+
+.mainp2 .panels .panle i {
+    margin: 0 15px;
+    font-size: 25px;
+    color: green;
+}
+
+.mainp2 .panels .panle span {
+    font-weight: 1000;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.724);
+}
+
+@media (min-width:320px) and (max-width:480px) {
+    .mainp2 .panels .panle {
+        width: 100%;
+    }
+}
+
+@media (min-width:481px) and (max-width:768px) {
+    .mainp2 .panels .panle {
+        width: 100%;
+    }
+}
+
+@media (min-width:769px) and (max-width:1300px) {
+    .mainp2 .panels .panle {
+        width: 49%;
+    }
+}
+
